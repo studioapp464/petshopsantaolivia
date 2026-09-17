@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Santa Olívia - Cuidados Completos para seu Pet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-gray-900 overflow-x-hidden">
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/554830335147" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-pet-green">Pet Shop <span class="text-black">Santa Olívia</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-gray-600 hover:text-pet-green font-medium transition-colors">Início</a>
+                    <a href="#services" class="text-gray-600 hover:text-pet-green font-medium transition-colors">Serviços</a>
+                    <a href="#about" class="text-gray-600 hover:text-pet-green font-medium transition-colors">Sobre Nós</a>
+                    <a href="#contact" class="text-gray-600 hover:text-pet-green font-medium transition-colors">Contato</a>
+                    <a href="https://wa.me/554830335147" target="_blank" class="bg-pet-green text-white px-6 py-2 rounded-full font-semibold btn-transition">Agende Já</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 py-4 space-y-4 shadow-lg">
+            <a href="#home" class="block text-gray-600 hover:text-pet-green font-medium">Início</a>
+            <a href="#services" class="block text-gray-600 hover:text-pet-green font-medium">Serviços</a>
+            <a href="#about" class="block text-gray-600 hover:text-pet-green font-medium">Sobre Nós</a>
+            <a href="#contact" class="block text-gray-600 hover:text-pet-green font-medium">Contato</a>
+            <a href="https://wa.me/554830335147" target="_blank" class="block bg-pet-green text-white text-center px-6 py-2 rounded-full font-semibold">Agende Já</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-white via-white/80 to-transparent z-10"></div>
+            <img src="images/11ED0Nv0zNQic554ORbGCoErkw8.avif" alt="Pet Shop Santa Olívia" class="w-full h-full object-cover">
+        </div>
+        <div class="container mx-auto px-4 relative z-20">
+            <div class="max-w-2xl" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+                    Cuidado e Carinho <br>
+                    <span class="text-pet-green">Para Seu Melhor Amigo</span>
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                    No Pet Shop Santa Olívia, oferecemos cuidados completos para cães e gatos, com atendimento atencioso e foco total no bem-estar do seu animalzinho.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="https://wa.me/554830335147" target="_blank" class="bg-pet-green text-white px-8 py-4 rounded-full font-bold text-center btn-transition text-lg">
+                        Fale Conosco <i class="fab fa-whatsapp ml-2"></i>
+                    </a>
+                    <a href="#services" class="border-2 border-pet-green text-pet-green px-8 py-4 rounded-full font-bold text-center btn-transition text-lg hover:bg-pet-green hover:text-white">
+                        Nossos Serviços
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Nossos <span class="text-pet-green">Serviços</span></h2>
+                <div class="w-24 h-1 bg-pet-green mx-auto rounded-full"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Oferecemos tudo o que seu pet precisa para viver com saúde, beleza e felicidade.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-aqua rounded-2xl flex items-center justify-center text-3xl text-white mb-6 group-hover:bg-pet-green transition-colors">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Banho e Tosa</h3>
+                    <p class="text-gray-600 mb-6">Higiene completa com produtos de alta qualidade para deixar seu pet cheiroso e lindo.</p>
+                    <a href="https://wa.me/554830335147" target="_blank" class="text-pet-green font-semibold flex items-center hover:translate-x-2 transition-transform">
+                        Agendar agora <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-aqua rounded-2xl flex items-center justify-center text-3xl text-white mb-6 group-hover:bg-pet-green transition-colors">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Atendimento Veterinário</h3>
+                    <p class="text-gray-600 mb-6">Cuidados de saúde preventivos e curativos para garantir a longevidade do seu pet.</p>
+                    <a href="https://wa.me/554830335147" target="_blank" class="text-pet-green font-semibold flex items-center hover:translate-x-2 transition-transform">
+                        Marcar consulta <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-aqua rounded-2xl flex items-center justify-center text-3xl text-white mb-6 group-hover:bg-pet-green transition-colors">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">Produtos & Acessórios</h3>
+                    <p class="text-gray-600 mb-6">As melhores rações, petiscos, medicamentos e acessórios para todos os portes e raças.</p>
+                    <a href="https://wa.me/554830335147" target="_blank" class="text-pet-green font-semibold flex items-center hover:translate-x-2 transition-transform">
+                        Ver catálogo <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2 relative" data-aos="fade-right">
+                    <div class="absolute -top-4 -left-4 w-64 h-64 bg-aqua rounded-full filter blur-3xl opacity-30 animate-pulse"></div>
+                    <img src="images/Captura de tela 2026-09-17 162551.png" alt="Sobre Pet Shop Santa Olívia" class="rounded-3xl shadow-2xl relative z-10">
+                    <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl z-20" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="flex items-center gap-4">
+                            <div class="text-pet-green text-4xl font-bold">100%</div>
+                            <div class="text-sm text-gray-600 font-medium">Dedicados ao <br>bem-estar animal</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <h2 class="text-4xl font-bold mb-6">Paixão por <span class="text-pet-green">Cuidar</span></h2>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                        O Pet Shop Santa Olívia é um estabelecimento especializado em oferecer cuidados completos para cães e gatos, com atendimento atencioso e foco no bem-estar dos animais.
+                    </p>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Nos destacamos pela variedade de produtos, atendimento próximo e preocupação real com o cuidado e conforto de cada pet que entra por nossa porta. Somos a opção prática para tutores que buscam higiene, saúde e produtos em um só lugar.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-pet-green"></i>
+                            <span class="font-medium">Atendimento Próximo</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-pet-green"></i>
+                            <span class="font-medium">Produtos Variados</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-pet-green"></i>
+                            <span class="font-medium">Foco no Bem-estar</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-pet-green"></i>
+                            <span class="font-medium">Equipe Especializada</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/554830335147" target="_blank" class="inline-block bg-black text-white px-8 py-3 rounded-full font-bold btn-transition">
+                        Conheça mais
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Nossa <span class="text-pet-green">Galeria</span></h2>
+                <div class="w-24 h-1 bg-pet-green mx-auto rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-2xl h-64" data-aos="zoom-in">
+                    <img src="images/Captura de tela 2026-09-17 162815.png" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" alt="Pet Shop Gallery 1">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/Captura de tela 2026-09-17 162932.png" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" alt="Pet Shop Gallery 2">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/Captura de tela 2026-09-17 163017.png" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" alt="Pet Shop Gallery 3">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="images/Captura de tela 2026-09-17 163225.png" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" alt="Pet Shop Gallery 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Entre em <span class="text-pet-green">Contato</span></h2>
+                <div class="w-24 h-1 bg-pet-green mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="space-y-8" data-aos="fade-right">
+                    <div class="flex items-start gap-6 p-6 rounded-3xl bg-gray-50 border border-gray-100 hover:bg-aqua/20 transition-colors">
+                        <div class="w-12 h-12 bg-pet-green text-white rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Onde estamos</h4>
+                            <p class="text-gray-600">R. Jacobe Weingartner, 4230 - Centro, Palhoça - SC, 88131-400</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 p-6 rounded-3xl bg-gray-50 border border-gray-100 hover:bg-aqua/20 transition-colors">
+                        <div class="w-12 h-12 bg-pet-green text-white rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">WhatsApp</h4>
+                            <p class="text-gray-600">(48) 3033-5147</p>
+                            <a href="https://wa.me/554830335147" target="_blank" class="inline-block mt-3 text-pet-green font-bold hover:underline">Iniciar conversa →</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-6 p-6 rounded-3xl bg-gray-50 border border-gray-100 hover:bg-aqua/20 transition-colors">
+                        <div class="w-12 h-12 bg-pet-green text-white rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Horário de Atendimento</h4>
+                            <p class="text-gray-600">Segunda a Sábado: 08h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="h-[400px] rounded-3xl overflow-hidden shadow-2xl" data-aos="fade-left">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.07564545312!2d-48.6482!3d-27.6434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966288da6f1e8e5d%3A0x7e7d4d8d8d8d8d8d!2sR.%20Jacobe%20Weingartner%2C%204230%20-%20Centro%2C%20Palhoça%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                        width="100%"
+                        height="100%"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="text-center md:text-left">
+                    <span class="text-2xl font-bold text-pet-green">Pet Shop <span class="text-white">Santa Olívia</span></span>
+                    <p class="text-gray-400 mt-2">O melhor cuidado para quem você ama.</p>
+                </div>
+                <div class="flex gap-6">
+                    <a href="#home" class="text-gray-400 hover:text-white transition-colors">Início</a>
+                    <a href="#services" class="text-gray-400 hover:text-white transition-colors">Serviços</a>
+                    <a href="#about" class="text-gray-400 hover:text-white transition-colors">Sobre</a>
+                    <a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contato</a>
+                </div>
+                <div class="text-gray-400 text-sm text-center md:text-right">
+                    &copy; 2026 Pet Shop Santa Olívia. Todos os direitos reservados.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
